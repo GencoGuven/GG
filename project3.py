@@ -2,8 +2,6 @@ from flask import Flask, render_template, request
 import requests
 from huggingface_hub import InferenceClient
 
-#biopython
-
 app = Flask(__name__)
 
 hf_token = "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"
