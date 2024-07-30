@@ -71,7 +71,7 @@ def generate_chatbot_response(combined_abstracts, symptom):
             f"its possible impact on the patient's quality of life. Briefly provide guidance or advice on what they might consider or do next. "
             f"Do not mention the abstracts or articles themselves. Focus on giving information about the top 5 most frequent diseases in a conversational manner without stating that you will discuss these diseases.\n\n"
             f"{combined_abstracts}\n\n"
-            "Summarize the key findings and provide a patient-centered response that connects the symptom to the diseases described. "
+            "Summarize the key findings and provide a patient-centered response that connects the symptom to the diseases described without stating that they are a a patient-centered response "
             "Avoid mentioning the articles or abstracts. Focus on the diseases and provide useful information in a friendly and approachable tone."
         )
 
